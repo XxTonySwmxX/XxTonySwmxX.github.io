@@ -371,6 +371,10 @@ main .benefits .cardContainer .card .description {
 }
 
 
+main .gallerySection .gallery {
+  width: 100%;
+  z-index: 999;
+}
 
 main .gallerySection .gallery {
   grid-template-columns: 6fr 6fr!important;
@@ -450,6 +454,88 @@ main .gallerySection .gallery .galleryImage {
 }
 
 
+main .testimonials {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+main .testimonials .container {
+  width: 100%;
+  z-index: 999;
+}
+
+main .testimonials .cardContainer {
+  display: flex;
+  justify-items: center;
+  justify-content: start;
+  gap: 1.25rem;
+  width: 100%;
+  padding: 2.5rem;
+  max-width: 80%;
+  overflow-x: scroll;
+  margin: 0rem auto;
+  scrollbar-color: #00ffff rgba(0, 255, 255, 0.6);
+  scrollbar-width: thin;
+}
+
+main .testimonials .cardContainer::-webkit-scrollbar-thumb {
+  background: #00ffff;
+  border-radius: 1.25rem;
+}
+
+main .testimonials .cardContainer::-webkit-scrollbar {
+  background: rgba(0, 255, 255, 0.6);
+  border-radius: 1.25rem;
+  height: 0.5rem;
+}
+
+main .testimonials .cardContainer .card {
+  background: linear-gradient(
+    180deg,
+    #161948 0%,
+    rgba(45, 83, 128, 0.44437) 100%
+  );
+  padding: 1.25rem;
+  padding-top: 1.9rem;
+  min-width: 13.75rem;
+  max-width: 15.6rem;
+}
+
+main .testimonials .cardContainer .card .icon {
+  margin-top: -3.75rem;
+  margin: 1.25rem 0rem;
+  max-width: 12.5rem;
+  max-height: 12.5rem;
+  height: 100%;
+  width: 100%;
+}
+
+main .testimonials .cardContainer .card .testimonialDescription {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 2.2rem;
+}
+
+main .testimonials .cardContainer .card .testimonial-name {
+  color: #ffffff;
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 400;
+}
+
+main
+  .testimonials
+  .cardContainer
+  .card
+  .testimonial-name
+  .testimonialOwnerLocation {
+  color: #00ffff;
+}
 
 
 main .contact {
