@@ -1,0 +1,79 @@
+                                                        
+.about_us {
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.about_us h2 {
+  margin-top: 4rem;
+  font-size: 3.1rem;
+  line-height: 3.1rem;
+  color: #00ffff;
+  margin-bottom: 2.5rem;
+}
+.about_us p {
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  color: #FFFFFF;
+  max-width: 56.25rem;
+  margin-bottom: 3.75rem;
+  
+}
+.about_us a {
+  color: #00ffff;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.4rem;
+  letter-spacing: 0.05rem;
+  padding: 0.6rem 1rem 0.6rem 1rem;
+  border: 0.1rem #00ffff solid;
+  z-index: 1;
+}
+.about_us a:hover {
+  color: #2a3b41;
+  background-color: #00ffff;
+  font-size: 1.3rem;
+  line-height: 1.4rem;
+  transition: 0.4s ease all;
+}
+
+@media screen and (max-width: 58.75rem) {
+  .about_us h2 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    color: #00ffff;
+    margin-bottom: 2.5rem;
+    
+  }
+  .about_us p {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #FFFFFF;
+    max-width: 37.5rem;
+    margin: 0rem 1.9rem 3.75rem 1.9rem;
+    text-align: left;
+    
+  }
+  .about_us a {
+    color: #00ffff;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+    letter-spacing: 0.1rem;
+    padding: 0.6rem 1rem 0.6rem 1rem;
+    border: 0.1rem #00ffff solid;
+    z-index: 1;
+  }
+  .about_us a:hover {
+    color: #2a3b41;
+    background-color: #00ffff;
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+  }
+}
