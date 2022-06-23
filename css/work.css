@@ -1,0 +1,285 @@
+.container {
+  width: 100%;
+}
+
+.sectionTitle {
+  color: #00ffff;
+  font-size: 2.6rem;
+  line-height: 2.6rem;
+  letter-spacing: 0.12rem;
+  text-align: center;
+  font-weight: 400;
+  margin: 1rem 0rem;
+}
+
+@media screen and (min-width: 58.75rem) {
+  .sectionTitle {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+}
+
+.card {
+  background: linear-gradient(
+    180deg,
+    rgba(54, 105, 148, 0.148) 0%,
+    rgba(56, 126, 184, 0.2) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 0.6rem 5rem 0.6rem;
+  flex-direction: column;
+  border-radius: 1.25rem;
+  box-shadow: 0.12rem 0.12rem 0.6rem rgba(0, 0, 0, 0.2);
+}
+
+.card .subtitle {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
+  text-align: center;
+}
+
+.card ul {
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
+  padding-left: 1.25rem;
+}
+
+.card ul li {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+  list-style: circle;
+  margin-bottom: 1.25rem;
+}
+
+@media screen and (min-width: 58.75rem) {
+  .card .subtitle {
+    font-size: 1.7rem;
+    line-height: 1.7rem;
+    color: #ffffff;
+  }
+  .card ul li {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+}
+
+
+.card-requirements {
+  background: linear-gradient(
+    180deg,
+    rgba(54, 105, 148, 0.148) 0%,
+    rgba(56, 126, 184, 0.2) 100%
+  );
+  display: flex;
+  align-items: center;
+  padding: 1.25rem 0.6rem 5rem 0.6rem;
+  flex-direction: column;
+  border-radius: 1.25rem;
+  box-shadow: 0.12rem 0.12rem 0.6rem rgba(0, 0, 0, 0.2);
+}
+
+.card-requirements .subtitle {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
+  text-align: center;
+}
+
+.card-requirements ul {
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
+  padding-left: 1.25rem;
+}
+
+.card-requirements ul li {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+  list-style: circle;
+  margin-bottom: 1.25rem;
+}
+
+@media screen and (min-width: 58.75rem) {
+  .card-requirements .subtitle {
+    font-size: 1.7rem;
+    line-height: 1.7rem;
+    color: #ffffff;
+  }
+  .card-requirements ul li {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+}
+
+main .work {
+  margin-top: 4.4rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main .work .sectionTitle {
+  margin-bottom: 1.2rem;
+}
+
+main .work .sectionTitle.ownpage {
+  margin-top: 2.5rem;
+}
+
+main .work .description {
+  color: #ffffff;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  font-weight: 400;
+  text-align: center;
+  max-width: 80%;
+  margin: 0rem auto 1.25rem auto;
+}
+
+main .work .cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 25rem));
+  grid-template-rows: 1fr 1fr;
+  margin-top: 1.9rem;
+  justify-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  grid-row-gap: 3.1rem;
+  max-width: 90%;
+  margin: 2.5rem auto;
+}
+
+main .work .card {
+  padding: 1.25rem 3.1rem 0.6rem 3.1rem;
+  background: linear-gradient(
+    180deg,
+    #161948 0%,
+    rgba(45, 83, 128, 0.44437) 100%
+  );
+}
+
+main .work .card .joinUsButton {
+  margin: 0rem auto;
+  background-color: #16183bff;
+  color: #00ffff;
+  display: block;
+  padding: 0.6rem 1.25rem;
+  min-width: 80%;
+  border-radius: 1.25rem;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  z-index: 999;
+  text-align: center;
+}
+
+@media screen and (min-width: 58.75rem) {
+  main .work {
+    margin-top: 8.1rem;
+  }
+  main .work.ownpage {
+    margin-top: 5rem;
+  }
+  main .work .description {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+  main .work .cardContainer {
+    margin: 3.75rem auto;
+    grid-template-columns: repeat(2, minmax(18.75rem, 26.9rem));
+    grid-template-rows: none;
+  }
+  main .work .card {
+    padding: 1.25rem 1.9rem;
+  }
+  main .work .card .joinUsButton {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    cursor: pointer;
+    margin-bottom: 1.25rem;
+    transition: 0.4s ease all;
+  }
+  main .work .card .joinUsButton:hover {
+    background: #00ffff;
+    color: #16183bff;
+  }
+}
+
+main .requirements {
+  margin-top: 1rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+main .requirements .sectionTitle {
+  margin-bottom: 0rem;
+}
+
+main .requirements .description {
+  color: #ffffff;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  font-weight: 400;
+  text-align: center;
+  max-width: 80%;
+  margin: 0rem auto 1.25rem auto;
+}
+
+main .requirements .cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 23.1rem));
+  grid-template-rows: 1fr 1fr;
+  margin-top: 1.9rem;
+  justify-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  grid-row-gap: 3.1rem;
+  max-width: 90%;
+  margin: 2.5rem auto;
+}
+
+main .requirements .cardContainer .card {
+  background: linear-gradient(
+    180deg,
+    rgba(31, 32, 65, 0.81) 0%,
+    rgba(54, 105, 148, 0.9) 100%
+  );
+  padding: 1.25rem;
+}
+
+main .requirements .cardContainer .card .imgContainer {
+  width: 100%;
+  display: flex;
+  margin-left: 1.9rem;
+}
+
+main .requirements .cardContainer .card ul {
+  margin: 0rem;
+}
+
+  main .requirements .description {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  main .requirements .cardContainer {
+    grid-template-rows: none;
+    margin-top: 3.75rem;
+    gap: 5rem;
+  }
+
+
