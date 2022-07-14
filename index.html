@@ -241,6 +241,11 @@ animation)
         <p class="u-custom-font u-font-merriweather u-text u-text-default u-text-3">Short descrption of the work of the posible video.</p>
       </div>
     </section>
+
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+  </div>
+
     
     
     <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-footer u-grey-5" id="sec-9d77"><div class="u-clearfix u-sheet u-sheet-1">
@@ -271,6 +276,23 @@ animation)
         <p class="u-align-center-lg u-align-center-md u-align-center-xl u-text u-text-6">Follow&nbsp;<span style="text-decoration: underline !important;"> Us</span>
         </p>
       </div></footer>
+
+      <div class='spinner-wrapper'>
+        <div class="spinner"></div>
+    </div>
+    
+    <div class="main-content"></div>
+    
+    <script>
+        let spinnerWrapper = document.querySelector('.spinner-wrapper');
+    
+        window.addEventListener('load', function () {
+            // spinnerWrapper.style.display = 'none';
+            spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+        });
+    </script>
+
+
 
   
 </body></html>
