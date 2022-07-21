@@ -38042,6 +38042,8 @@ a.u-link.u-text-hover-grey-90:hover {
         line-height: 1.2;
         margin-top: 20px;
         margin-bottom: 20px;
+        color: #fff;
+    text-shadow: 0 0 0.48rem #bb3a4e, 0 0 0.96rem #bb3a4e, 0 0 2rem #bb3a4e, 0 0 4rem #bb3a4e, 0 0 7.04rem #bb3a4de3, 0 0 8rem #bb3a4db4, 0 0 10rem #bb3a4d63, 0 0 12rem #bb3a4d25;
         }
         h4
         {
